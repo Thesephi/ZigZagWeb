@@ -100,7 +100,8 @@ div#social-bar {
 }
 
 nav#main {
-	min-width: 780px;
+	min-width: 680px;
+	white-space: nowrap;
 	float: right;
 	clear: right;
 	position: relative;
@@ -117,6 +118,10 @@ nav#main li {
 	display: inline;
 	margin: 0 0 0 -4px; // normally li elements should have float:left and display:block, but here we only use display:inline, so apply a -4px margin-left to fix the gaps between li elements
 	padding: 0;
+}
+
+nav#main li:first-child {
+	margin: 0;
 }
 
 nav#main li a {
@@ -148,7 +153,65 @@ div#slider {
 	background-size: cover;
 }
 
+div#slider-ctrl {
+	width: 100%;
+	height: 16px;
+	background: #A5A5A5;
+}
 
+article {
+	text-align: left;
+}
+
+article#art0 {
+	width: 80%;
+	padding: 0 10% 15px 10%;
+	background: #A5A5A5;
+	margin: 0 auto;
+}
+
+article section.sect-left {
+	width: 46%;
+	padding: 0 2%;
+	float: left;
+	background: url(../imgs/sect_div_bg_2x2.png) right top repeat-y;
+}
+
+article section.sect-right {
+	width: 46%;
+	padding: 0 2%;
+	float: right;
+}
+
+div.sect-nav-arr {
+	width: 100%;
+	height: 45px;
+	background: url(../imgs/sect_nav_arr_bg_162x90.png) center 0 no-repeat;
+	cursor: hand;
+	cursor: pointer;
+}
+
+div.sect-nav-arr:hover {
+	background: url(../imgs/sect_nav_arr_bg_162x90.png) center -45px no-repeat;
+}
+
+article#art1 {
+	background: url(../imgs/home_art/01_1130x550.png) center center no-repeat;
+	width: 80%;
+	padding: 0 10%;
+	height: 700px;
+}
+
+p.art-child {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+article#art1 p:last-child {
+	position: relative;
+	top: 600px;
+}
 
 
 
