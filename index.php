@@ -53,7 +53,7 @@
 			</section>
 			<section class="sect-right">
 				<h1>Why's bear?</h1>
-				<p>Gấu được chúng tôi chọn là người hướng dẫn cho khách hàng khi tham quan website. Câu chuyện bắt nguồn từ biệt danh của người sáng lập nên công ty, chúng tôi quyết định linh vật là Gấu để viết câu chuyện về mình. <strong>Zigzag đã chọn những điều mình thích để làm nên bộ hồ sơ riêng, và sẽ chọn những điều bạn thích để xây dựng nên bộ hồ sơ của chính các bạn.</strong></p>
+				<p>Gấu được chúng tôi chọn là người hướng dẫn cho khách hàng khi tham quan website. Câu chuyện bắt nguồn từ biệt danh của người sáng lập nên công ty, chúng tôi quyết định linh vật là Gấu để viết câu chuyện về mình. <strong>ZigZag đã chọn những điều mình thích để làm nên bộ hồ sơ riêng, và sẽ chọn những điều bạn thích để xây dựng nên bộ hồ sơ của chính các bạn.</strong></p>
 			</section>
 		</article>
 		
@@ -73,8 +73,8 @@
 		
 		<article class="story" id="art2">
 		<div>
-			<h1>Hồ sơ năng lực là gì ?</h1>
-			<p>Có bao giờ bạn thắc mắc tại sao mình không có được nhiều cơ hội tốt như người khác ? Bạn có năng lực nhưng chưa biết cách thể hiện ? <strong>Hãy bắt đầu với một bộ hồ sơ năng lực !</strong></p>
+			<h1>Hồ sơ năng lực là gì?</h1>
+			<p>Có bao giờ bạn thắc mắc tại sao mình không có được nhiều cơ hội tốt như người khác? Bạn có năng lực nhưng chưa biết cách thể hiện? <strong>Hãy bắt đầu với một bộ hồ sơ năng lực !</strong></p>
 			<div class="illus" id="illus2" data-dim-ratio="0.41"></div>
 			<p><strong>Hồ sơ được xem là công cụ hiệu quả nhất nhằm marketing bản thân,</strong> thể hiện được thế mạnh và năng lực, phần thiết kế cần sự sáng tạo và khác biệt.</p>
 			<div class="sect-nav-arr"></div>
@@ -84,7 +84,7 @@
 		
 		<article class="story" id="art3">
 		<div>
-			<h1>Tại sao nên chọn Zigzag Career ?</h1>
+			<h1>Tại sao nên chọn ZigZag Career?</h1>
 			<p>Tại ZigZag Career, chúng tôi tin rằng Một Hồ Sơ có thể mang đến cho bạn Triệu Cơ Hội để khẳng định năng lực và tạo thương hiệu cá nhân của mình.</p>
 			<div class="illus clearfix" id="illus3" data-smart-height="true" data-dim-ratio="0.41">
 			

@@ -90,7 +90,7 @@ body, html {
 	padding: 0;
 	background: #EFEFEF url(../imgs/h_div_1x6.png) repeat-x;
 	text-align: center;
-	font-family: "MainFont", "Arial", sans-serif;
+	font-family: "MainFont", Arial, sans-serif;
 }
 
 header#main-header {
@@ -134,6 +134,7 @@ div#tt-btn:hover {
 }
 
 div#social-bar {
+    width: 50px;
 	height: 19px;
 	float: right;
 	position: relative;
@@ -141,7 +142,7 @@ div#social-bar {
 	line-height: 19px;
 }
 
-/* TODO: added responsive capability for this */
+/* TODO: adding responsive capability for this */
 nav#main-nav {
 	min-width: 600px;
 	white-space: nowrap;
@@ -159,7 +160,7 @@ nav#main-nav ul {
 
 nav#main-nav li {
 	display: inline;
-	margin: 0 0 0 -4px; /* normally li elements should have float:left and display:block, but here we only use display:inline, so apply a -4px */ margin-left to fix the gaps between li elements
+	margin: 0 0 0 -4px; /* normally li elements should have float:left and display:block, but here we only use display:inline, so apply a -4px margin-left to fix the gaps between li elements */
 	padding: 0;
 }
 
