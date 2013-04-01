@@ -84,7 +84,7 @@ textarea {
 body, html {
 	width: 100%;
 	height: 100%;
-	min-width: 540px;
+	min-width: 480px; /* intermediate */
 	/*overflow-x: hidden;*/
 	margin: 0;
 	padding: 0;
@@ -94,37 +94,61 @@ body, html {
 }
 
 header#main-header {
-	width: 80%;
-	height: 116px;
+	width: 77%;
+	height: 76px;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 div#logo {
-	width: 330px;
-	height: 80px;
-	background: url(../imgs/logo_330x80.png);
+	width: 240px;
+	height: 58px;
+	background: url(../imgs/logo_240x58.png);
 	float: left;
 	position: relative;
-	top: 18px;
+	top: 11px;
+}
+
+div#fb-btn {
+	width: 19px;
+	height: 19px;
+	background: url(../imgs/fb-btn_19x38.png);
+	float: left;
+	margin-left: 5px;
+}
+
+div#fb-btn:hover {
+	background: url(../imgs/fb-btn_19x38.png) left -100%;
+}
+
+div#tt-btn {
+	width: 19px;
+	height: 19px;
+	background: url(../imgs/tt-btn_19x38.png);
+	float: left;
+	margin-left: 5px;	
+}
+
+div#tt-btn:hover {
+	background: url(../imgs/tt-btn_19x38.png) left -100%;
 }
 
 div#social-bar {
 	height: 19px;
 	float: right;
 	position: relative;
-	top: 18px;
+	top: 13px;
 	line-height: 19px;
 }
 
 /* TODO: added responsive capability for this */
 nav#main-nav {
-	min-width: 680px;
+	min-width: 600px;
 	white-space: nowrap;
 	float: right;
 	clear: right;
 	position: relative;
-	top: 47px;
+	top: 23px;
 }
 
 nav#main-nav ul {
@@ -135,12 +159,12 @@ nav#main-nav ul {
 
 nav#main-nav li {
 	display: inline;
-	margin: 0 0 0 -4px; // normally li elements should have float:left and display:block, but here we only use display:inline, so apply a -4px margin-left to fix the gaps between li elements
+	margin: 0 0 0 -4px; /* normally li elements should have float:left and display:block, but here we only use display:inline, so apply a -4px */ margin-left to fix the gaps between li elements
 	padding: 0;
 }
 
 nav#main-nav li:first-child {
-	margin: 0; // we don't want to set a -4 margin-left for the first element, lest it overlaps the left boundary of its parent container
+	margin: 0; /* we don't want to set a -4 margin-left for the first element, lest it overlaps the left boundary of its parent container */
 }
 
 nav#main-nav li a {
@@ -165,10 +189,17 @@ nav#main-nav li:last-child a {
 	border-right: none;
 }
 
-div#slider {
+div#slider-out {
 	width: 100%;
-	height: 478px;
-	background: url(../imgs/main_slider/01.jpg) center center no-repeat;
+	background: #5B5B5B;
+}
+
+div#slider {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 970px;
+	height: 322px;
+	background: url(../imgs/main_slider_970x322/01.jpg) center center no-repeat;
 	background-size: cover;
 }
 
@@ -183,10 +214,18 @@ article {
 }
 
 article#art0 {
-	width: 80%;
-	padding: 0 10% 15px 10%;
+	width: 70%;
+	padding: 0 15% 15px 15%;
 	background: #A5A5A5;
 	margin: 0 auto;
+}
+
+article#art0 h1, article#art0 p {
+	margin: 0 5px;
+}
+
+article#art0 p {
+	font-size: 0.9em;
 }
 
 article section.sect-left {
@@ -215,7 +254,7 @@ div.sect-nav-arr:hover {
 }
 
 article.story {
-	width: 80%;
+	width: 70%;
 	padding: 0 10%;
 	margin: 10px auto;
 	/*height: 800px;*/
@@ -225,90 +264,292 @@ article.story {
 article.story p , article.story h1 {
 	font-family: "HPFont", "Arial", sans-serif;
 	text-align: center;
-	width: 58%;
+	width: 66%;
 	margin: 0 auto;
 }
 
+article.story div.sect-nav-arr {
+	margin-top: 30px;
+}
+
+article#art2 div.sect-nav-arr {
+	margin-top: 10px;
+}
+
+/*
+ * We don't set height for this because it'll be set dynamically
+ * upon browser resize
+ */
 article.story div.illus {
-	width: 100%;
-	height: 510px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	margin: 10px 0;
+	margin: 10px auto;
 }
 
 div#illus1 {
 	background-image: url(../imgs/home_art/01_1130x550.png);
+	height: 363px;
 }
 
 div#illus2 {
 	background-image: url(../imgs/home_art/02_1130x550.png);
-}
-
-div#illus3 {
-	background-image: url(../imgs/home_art/03_1130x550.png);
-	background-size: cover !important;
-	padding-top: 5px;
-	/*border: 1px dotted #000;*/
+	height: 363px;
 }
 
 div.illus3-child h2, div.illus3-child p {
 	font-family: "HPFont", "Arial", sans-serif;
+	font-size: 0.9em;
 	width: 80%;
-	margin: 20px auto;
+	margin: 0 auto;
+	padding: 10px 10%;
 	text-align: center;
+	background: #CCCCCC;
 }
 
-div#illus31 {
-	width: 22%;
-	float: left;
-	margin: auto 1% auto 2%;
-	/*border: 1px dotted #000;*/
-}
-
-div#illus32 {
-	width: 22%;
-	float: left;
-	margin: auto 1% auto 2%;
-	/*border: 1px dotted #000;*/
-}
-
-div#illus33 {
-	width: 21.5%;
-	float: left;
-	margin: auto 1% auto 1%;
-	/*border: 1px dotted #000;*/
-}
-
-div#illus34 {
-	width: 21%;
-	float: left;
-	margin: auto 2% auto 2%;
-	/*border: 1px dotted #000;*/
+div.illus3-child h2 {
+	margin-top: 5px;
+	padding-bottom: 0;
 }
 
 div#illus4 {
-	background-image: url(../imgs/home_art/04_1060x660.png);
-	height: 660px !important;
+	height: 470px;
+	overflow: hidden;
+}
+
+div.illus4-comp {
+	width: 80%;
+	height: 50px;
+	margin: 0 auto;
+	border: 1px #999999 dotted;
+	border-bottom: none;
+}
+
+div.illus4-comp:hover {
+	background: #990000;
+}
+
+div.illus4-comp:hover div {
+	color:#FFFFFF;
+}
+
+div#comp2 {
+	border: 1px #999 dotted;
+}
+
+div.illus4-comp div {
+	width: 90%;
+	padding: 10px 5%;
+	text-align: center;
+	color: #000000;
+}
+
+@media only screen and (min-width: 768px) {
+
+	div#illus3 {
+		background-image: url(../imgs/home_art/03_1070x550.png);
+	}
+	
+	div.illus3-child h2, div.illus3-child p {
+		display: none;
+	}
+
+	div#illus31 {
+		width: 23%;
+		float: left;
+		/*margin: 0 1% 0 1%;*/
+		padding: 0 1% 0 1%;
+		/*background: #999 url(../imgs/home_art/031.png) left top no-repeat;
+		background-size: contain;*/
+		height: 100%;
+	}
+
+	div#illus32 {
+		width: 23%;
+		float: left;
+		/*margin: 0 1% 0 1%;*/
+		padding: 0 1% 0 1%;
+		/*background: #999; url(../imgs/home_art/032.png) left top no-repeat;
+		background-size: contain;*/
+		height: 100%;
+	}
+
+	div#illus33 {
+		width: 23%;
+		float: left;
+		/*margin: 0 1% 0 1%;*/
+		padding: 0 1% 0 1%;
+		/*background: #999; url(../imgs/home_art/033.png) left top no-repeat;
+		background-size: contain;*/
+		height: 100%;
+	}
+
+	div#illus34 {
+		width: 23%;
+		float: left;
+		/*margin: 0 1% 0 1%;*/
+		padding: 0 1% 0 1%;
+		/*background: #999; url(../imgs/home_art/034.png) left top no-repeat;
+		background-size: contain;*/
+		height: 100%;
+	}
+	
+	div#illus4comps {
+		width: 760px;
+		height: 470px;
+		margin: 0 auto;
+		/*float: left;
+		position: relative;
+		top: -100%;*/
+	}
+	
+	div#comp1 {
+		width: 573px; /*74%;*/
+		height: 183px; /*38%;*/
+		background: url(../imgs/home_art/04_comp1_off.png) no-repeat;
+		background-size: contain;
+		float: left;
+	}
+
+	div#comp1:hover {
+		background: url(../imgs/home_art/04_comp1.png) no-repeat;
+	}
+
+	div#comp2 {
+		width: 183px; /*26%;*/
+		height: 470px; /*100%;*/
+		background: url(../imgs/home_art/04_comp2_off.png) no-repeat;
+		background-size: contain;
+		float:left;
+	}
+
+	div#comp2:hover {
+		background: url(../imgs/home_art/04_comp2.png) no-repeat;
+	}
+
+	div#comp3 {
+		width: 200px; /*26%;*/
+		height: 286px; /*100%;*/
+		background: url(../imgs/home_art/04_comp3_off.png) no-repeat;
+		background-size: contain;
+		float:left;
+	}
+
+	div#comp3:hover {
+		background: url(../imgs/home_art/04_comp3.png) no-repeat;
+	}
+
+	div#comp4 {
+		width: 200px; /*26%;*/
+		height: 286px; /*100%;*/
+		background: url(../imgs/home_art/04_comp4_off.png) no-repeat;
+		background-size: contain;
+		float:left;
+	}
+
+	div#comp4:hover {
+		background: url(../imgs/home_art/04_comp4.png) no-repeat;
+	}
+
+	div#comp5 {
+		width: 170px; /*26%;*/
+		height: 286px; /*100%;*/
+		background: url(../imgs/home_art/04_comp5_off.png) no-repeat;
+		background-size: contain;
+		float:left;
+	}
+
+	div#comp5:hover {
+		background: url(../imgs/home_art/04_comp5.png) no-repeat;
+	}
+
+	div#illus4comps {
+		height: 470px;
+		margin: 0 auto;
+	}
+	
+	div#illus4comps1345 {
+		float:left;
+		width: 573px;
+	}
+	
+	div.illus4-comp, div#comp2 {
+		border: none;
+	}
+	
+	div.illus4-comp div {
+		display: none;
+	}
+}
+
+aside#main-aside {
+	width: 80%;
+	margin: 0 auto;
 }
 
 footer#main-footer {
-	width: 100%;
-	height: 100px;
 	background: #000000;
+}
+
+footer#main-footer div {
+	width: 76%;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+
+footer#main-footer p {
+	color: #CCCCCC;
+	font-size: 0.8em;
+	margin: 0;
 }
 
 span.strong-red {
 	color: #7E080B;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 span.strong-white {
 	color: #FFFFFF;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.2em;
+}
+
+a, a:hover, a:active, a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.tooltip {
+	position: relative;
+}
+
+a.tooltip::before {
+	content: attr(data-tip);
+	font-family: "Arial", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	position: absolute;
+	z-index: 999;
+	white-space: nowrap;
+	bottom: -35px;
+	left: 0px;
+	background: #000;
+	color: #e0e0e0;
+	padding: 0px 7px;
+	line-height: 24px;
+	height: 24px;
+	
+	opacity: 0;
+	-webkit-transition: opacity 0.4s ease-out;
+	-moz-transition: opacity 0.4s ease-out;
+	-o-transition: opacity 0.4s ease-out;
+	transition: opacity 0.4s ease-out;
+}
+
+a.tooltip:hover::before	{
+	opacity: 1;
+	bottom: 20px;
 }
 
 
@@ -321,7 +562,7 @@ span.strong-white {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-
+	
 }
 
 @media print,
