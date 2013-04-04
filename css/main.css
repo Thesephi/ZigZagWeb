@@ -221,7 +221,7 @@ article#art0 {
 	margin: 0 auto;
 }
 
-article#art0 h1, article#art0 p {
+article#art0 h2, article#art0 p {
 	margin: 0 5px;
 }
 
@@ -262,7 +262,7 @@ article.story {
 	overflow: hidden;
 }
 
-article.story p , article.story h1 {
+article.story p , article.story h2 {
 	font-family: "HPFont", "Arial", sans-serif;
 	text-align: center;
 	width: 66%;

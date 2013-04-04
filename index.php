@@ -48,11 +48,11 @@
 		
 		<article id="art0" class="clearfix">
 			<section class="sect-left">
-				<h1>Our Service</h1>
+				<h2>Our Service</h2>
 				<p>ZigZag Career giúp khách hàng thành công trong học tập và làm việc, đồng thời xây dựng thương hiệu cá nhân đẳng cấp và chuyên nghiệp qua các dịch vụ: <strong>Viết Hồ Sơ Năng Lực, Xây dựng thương hiệu cá nhân, Tư vấn và lên kế hoạch học tập, du học và nghề nghiệp và Chiến lược tìm việc để có được công việc mơ ước.</strong> Dịch vụ của chúng tôi là tất cả những gì khách hàng cần để xây dựng một thương hiệu cá nhân thật sự chuyên nghiệp và thành công.</p>
 			</section>
 			<section class="sect-right">
-				<h1>Why's bear?</h1>
+				<h2>Why's bear?</h2>
 				<p>Gấu được chúng tôi chọn là người hướng dẫn cho khách hàng khi tham quan website. Câu chuyện bắt nguồn từ biệt danh của người sáng lập nên công ty, chúng tôi quyết định linh vật là Gấu để viết câu chuyện về mình. <strong>ZigZag đã chọn những điều mình thích để làm nên bộ hồ sơ riêng, và sẽ chọn những điều bạn thích để xây dựng nên bộ hồ sơ của chính các bạn.</strong></p>
 			</section>
 		</article>
@@ -73,7 +73,7 @@
 		
 		<article class="story" id="art2">
 		<div>
-			<h1>Hồ sơ năng lực là gì?</h1>
+			<h2>Hồ sơ năng lực là gì?</h2>
 			<p>Có bao giờ bạn thắc mắc tại sao mình không có được nhiều cơ hội tốt như người khác? Bạn có năng lực nhưng chưa biết cách thể hiện? <strong>Hãy bắt đầu với một bộ hồ sơ năng lực !</strong></p>
 			<div class="illus" id="illus2" data-dim-ratio="0.41"></div>
 			<p><strong>Hồ sơ được xem là công cụ hiệu quả nhất nhằm marketing bản thân,</strong> thể hiện được thế mạnh và năng lực, phần thiết kế cần sự sáng tạo và khác biệt.</p>
@@ -84,7 +84,7 @@
 		
 		<article class="story" id="art3">
 		<div>
-			<h1>Tại sao nên chọn ZigZag Career?</h1>
+			<h2>Tại sao nên chọn ZigZag Career?</h2>
 			<p>Tại ZigZag Career, chúng tôi tin rằng Một Hồ Sơ có thể mang đến cho bạn Triệu Cơ Hội để khẳng định năng lực và tạo thương hiệu cá nhân của mình.</p>
 			<div class="illus clearfix" id="illus3" data-smart-height="true" data-dim-ratio="0.41">
 			
