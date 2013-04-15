@@ -3,6 +3,14 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<!-- ZigZag Career -->
+
+	<?php
+		$host = $_SERVER["HTTP_HOST"];
+		$cdn_prefix = ($host == 'zigzag.com')? "" : "http://zigzag-career.appspot.com/";
+	?>
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -10,8 +18,8 @@
         <meta name="description" content="resume writing, cv, proofreading, study abroad, consultations, company profile, personal profile, job application, personal branding">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="<?php echo $cdn_prefix; ?>css/normalize.min.css">
+        <link rel="stylesheet" href="<?php echo $cdn_prefix; ?>css/main.css">
 
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -148,11 +156,11 @@
 		</footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/jquery.mousewheel.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+		<script src="<?php echo $cdn_prefix; ?>js/jquery.mousewheel.min.js"></script>
+        <script>window.jQuery || document.write('<script src="<?php echo $cdn_prefix; ?>js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="<?php echo $cdn_prefix; ?>js/plugins.js"></script>
+        <script src="<?php echo $cdn_prefix; ?>js/main.js"></script>
 		
         <script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
