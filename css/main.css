@@ -141,7 +141,6 @@ div#social-bar {
 	line-height: 19px;
 }
 
-/* TODO: adding responsive capability for this */
 nav#main-nav {
 	width: 100%;
 	white-space: nowrap;
@@ -192,6 +191,7 @@ nav#main-nav > ul > li:last-child > a {
 nav#main-nav > ul > li > ul {
 	position: absolute;
 	background: #EFEFEF;
+	top: 20px;
 	left: 75px;
 	margin: 0;
 	padding: 20px 0 0 0;
@@ -400,6 +400,7 @@ div.illus4-comp div {
 	}
 
 	nav#main-nav > ul > li > ul {
+		top: 25px;
 		left: 181px;
 		position: absolute;
 	}
