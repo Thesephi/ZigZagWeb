@@ -1,12 +1,12 @@
 /* ZigZag Career main.js
  * Written by Seph
  */
- 
- var _isScrolling = false;
- var _scrollCompleteCalled = false;
- var _storyPos = [0];
- var _curStoryPos = 0;
- 
+
+var _isScrolling = false;
+var _scrollCompleteCalled = false;
+var _storyPos = [0];
+var _curStoryPos = 0;
+
 $(function() {
 	
 	/*$(window).bind('scroll', function() {
@@ -136,18 +136,18 @@ function adjustStories() {
 	});
 	
 	// specific adjustments AFTER general adjustments
-	if(canvasCtrl.canvas) {
-		var canvas = canvasCtrl.canvas;
-		var containerWid = $('div#illus4').width();
-		var containerHei = $('div#illus4').height();
-		var imgWid = canvasCtrl.onLayerWid;
-		var imgHei = canvasCtrl.onLayerHei;
-		canvas.width = containerWid;
-		canvas.height = containerHei;
-		var imgX = containerWid/2 - imgWid/2;
-		var imgY = containerHei/2 - imgHei/2;
-		canvasCtrl.ctx.drawImage(canvasCtrl.onLayer, 0, 0, containerWid, containerHei);
-	}
+	//if(canvasCtrl.canvas) {
+	//	var canvas = canvasCtrl.canvas;
+	//	var containerWid = $('div#illus4').width();
+	//	var containerHei = $('div#illus4').height();
+	//	var imgWid = canvasCtrl.onLayerWid;
+	//	var imgHei = canvasCtrl.onLayerHei;
+	//	canvas.width = containerWid;
+	//	canvas.height = containerHei;
+	//	var imgX = containerWid/2 - imgWid/2;
+	//	var imgY = containerHei/2 - imgHei/2;
+	//	canvasCtrl.ctx.drawImage(canvasCtrl.onLayer, 0, 0, containerWid, containerHei);
+	//}
 }
 
 function gotoBot() {
@@ -168,7 +168,15 @@ function gotoBot() {
 	);
 }
 
-var canvasCtrl = {
+function toggleSubMenu(sel, flag) {
+	try {
+		$('ul'+sel).css('display', flag);
+	} catch(error) {
+		console.log(error);
+	}
+}
+
+/*var canvasCtrl = {
 	"canvas" : null,
 	"ctx" : null,
 	"onLayer" : null,
@@ -197,4 +205,4 @@ var canvasCtrl = {
 	"mask1" : function() {
 		console.log(this.ctx);
 	}
-}
+}*/

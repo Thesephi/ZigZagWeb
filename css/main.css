@@ -94,10 +94,8 @@ body, html {
 }
 
 header#main-header {
-	width: 77%;
 	height: 76px;
 	margin: 0 auto;
-	overflow: hidden;
 }
 
 div#logo {
@@ -139,55 +137,88 @@ div#social-bar {
 	float: right;
 	position: relative;
 	top: 13px;
+	right: 7px;
 	line-height: 19px;
 }
 
 /* TODO: adding responsive capability for this */
 nav#main-nav {
-	min-width: 600px;
+	width: 100%;
 	white-space: nowrap;
-	float: right;
-	clear: right;
 	position: relative;
-	top: 23px;
+	top: 18px;
+	float: left;
+	background: #EFEFEF;
 }
 
-nav#main-nav ul {
+nav#main-nav > ul {
 	margin: 0;
-	padding: 0;
-	text-align: right;
+	padding: 0 7px;
+	text-align: left;
 }
 
-nav#main-nav li {
+nav#main-nav > ul > li {
 	display: inline;
 	margin: 0 0 0 -4px; /* normally li elements should have float:left and display:block, but here we only use display:inline, so apply a -4px margin-left to fix the gaps between li elements */
 	padding: 0;
 }
 
-nav#main-nav li:first-child {
+nav#main-nav > ul > li:first-child {
 	margin: 0; /* we don't want to set a -4 margin-left for the first element, lest it overlaps the left boundary of its parent container */
 }
 
 nav#main-nav li a {
 	margin: 0;
-	padding: 0 2%;
+	padding: 0 10px;
 	color: #000000;
 	text-decoration: none;
-	border-right: 2px solid #000000;
+	/*border-right: 2px solid #000000;*/ /*important*/
 }
 
-nav#main-nav li:hover a {
+nav#main-nav > ul > li:hover > a {
 	color: #9d1c1f;
-	border-right: 2px solid #9d1c1f;
+	/*border-right: 2px solid #9d1c1f;*/ /*important*/
 }
 
-nav#main-nav li:first-child a {
+nav#main-nav > ul > li:first-child > a {
 	padding-left: 0;
 }
 
-nav#main-nav li:last-child a {
+nav#main-nav > ul > li:last-child > a {
 	padding-right: 0;
 	border-right: none;
+}
+
+nav#main-nav > ul > li > ul {
+	position: absolute;
+	background: #EFEFEF;
+	left: 75px;
+	margin: 0;
+	padding: 20px 0 0 0;
+	text-align:left;
+	box-shadow: 5px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+nav#main-nav > ul > li > ul > li {
+	padding: 8px 13px;
+	border-top: 2px solid #000000;
+}
+
+nav#main-nav > ul > li > ul a {
+	border: none;
+}
+
+nav#main-nav > ul > li > ul > li:hover {
+	background: #9d1c1f;
+}
+
+nav#main-nav > ul > li > ul > li:hover a {
+	color: #FFFFFF;
+}
+
+/* hide submenu by default */
+ul#sub-menu-1 {
+	display: none;
 }
 
 div#slider-out {
@@ -196,7 +227,7 @@ div#slider-out {
 }
 
 div#slider {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	max-width: 970px;
 	height: 322px;
@@ -215,8 +246,8 @@ article {
 }
 
 article#art0 {
-	width: 70%;
-	padding: 0 15% 15px 15%;
+	width: auto;
+	padding: 0 0 15px 0;
 	background: #A5A5A5;
 	margin: 0 auto;
 }
@@ -346,6 +377,41 @@ div.illus4-comp div {
 }
 
 @media only screen and (min-width: 768px) {
+
+	header#main-header {
+		width: 77%;
+	}
+
+	nav#main-nav {
+		width: auto;
+		min-width: 600px;
+		white-space: nowrap;
+		float: right;
+		clear: right;
+		position: relative;
+		top: 18px;
+		right: 0;
+		padding: 5px 0;
+		background: #EFEFEF;
+	}
+
+	nav#main-nav > ul {
+		text-align: right;
+	}
+
+	nav#main-nav > ul > li > ul {
+		left: 181px;
+		position: absolute;
+	}
+
+	div#slider {
+		width: 80%;
+	}
+
+	article#art0 {
+		width: 70%;
+		padding: 0 15% 15px 15%;
+	}
 
 	div#illus3 {
 		background-image: url(../imgs/home_art/03_1070x550.png);
@@ -533,7 +599,7 @@ a.tooltip::before {
 	position: absolute;
 	z-index: 999;
 	white-space: nowrap;
-	bottom: -35px;
+	bottom: 9999px;
 	left: 0px;
 	background: #000;
 	color: #e0e0e0;

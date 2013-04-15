@@ -9,6 +9,13 @@
 	<?php
 		$host = $_SERVER["HTTP_HOST"];
 		$cdn_prefix = ($host == 'zigzag.com')? "" : "http://zigzag-career.appspot.com/";
+
+		$host = "http://".$host;
+		$dl_sv_study = $host."/downloads/zigzagcareer-leaflet-sv-studyabroad.pdf";
+		$dl_ns = $host."/downloads/zigzagcareer-leaflet-ns.pdf";
+		$dl_sv_resume = $host."/downloads/zigzagcareer-leaflet-sv-resume.pdf";
+		$dl_cv = $host."/downloads/zigzagcareer-leaflet-cv.pdf";
+		$dl_dn = $host."/downloads/zigzagcareer-leaflet-dn.pdf";
 	?>
 
     <head>
@@ -40,7 +47,16 @@
 			<nav id="main-nav">
 				<ul>
 					<li><a href="#">Giới thiệu</a></li>
-					<li><a href="#" class="tooltip" data-tip="coming soon!">Dịch vụ viết</a></li>
+					<li onmouseover="toggleSubMenu('#sub-menu-1', 'block')" onmouseout="toggleSubMenu('#sub-menu-1', 'none')">
+						<a href="#">Dịch vụ viết</a>
+						<ul id="sub-menu-1">
+							<li><a href="<?php echo $dl_sv_study; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)">Du Học</a></li>
+							<li><a href="<?php echo $dl_sv_resume; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)">Sinh Viên</a></li>
+							<li><a href="<?php echo $dl_cv; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)">Chuyên Viên</a></li>
+							<li><a href="<?php echo $dl_ns; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)">Nghệ Sĩ</a></li>
+							<li><a href="<?php echo $dl_dn; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)">Doanh Nhân</a></li>
+						</ul>
+					</li>
 					<li><a href="#" class="tooltip" data-tip="coming soon!">Tư vấn</a></li>
 					<li><a href="#" class="tooltip" data-tip="coming soon!">FAQs</a></li>
 					<li><a href="#" class="tooltip" data-tip="coming soon!">Tuyển dụng</a></li>
@@ -126,12 +142,12 @@
 				<!--<canvas id="art4c"></canvas>-->
 				<div class="clearfix" id="illus4comps">
 					<div id="illus4comps1345">
-						<a href="http://zigzagcareer.com/downloads/zigzagcareer-leaflet-sv-studyabroad.pdf" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp1"><div>Du Học</div></div></a>
-						<a href="http://zigzagcareer.com/downloads/zigzagcareer-leaflet-ns.pdf" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp3"><div>Nghệ Sĩ</div></div></a>
-						<a href="http://zigzagcareer.com/downloads/zigzagcareer-leaflet-sv-resume.pdf" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp4"><div>Sinh Viên</div></div></a>
-						<a href="http://zigzagcareer.com/downloads/zigzagcareer-leaflet-cv.pdf" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp5"><div>Chuyên Viên</div></div></a>
+						<a href="<?php echo $dl_sv_study; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp1"><div>Du Học</div></div></a>
+						<a href="<?php echo $dl_ns; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp3"><div>Nghệ Sĩ</div></div></a>
+						<a href="<?php echo $dl_sv_resume; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp4"><div>Sinh Viên</div></div></a>
+						<a href="<?php echo $dl_cv; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp5"><div>Chuyên Viên</div></div></a>
 					</div>
-					<a href="http://zigzagcareer.com/downloads/zigzagcareer-leaflet-dn.pdf" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp2"><div>Doanh Nhân</div></div></a>
+					<a href="<?php echo $dl_dn; ?>" target="_blank" onclick="ga('send', 'event', 'User Behaviour', 'Download', this.href)"><div class="illus4-comp" id="comp2"><div>Doanh Nhân</div></div></a>
 				</div>
 			</div>
 		</div>
