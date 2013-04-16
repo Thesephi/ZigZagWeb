@@ -43,6 +43,7 @@
 			<div id="social-bar">
 				<a href="http://www.facebook.com/zigzagcareer" target="_blank" title="Find us on facebook" onclick="ga('send', 'event', 'User Behaviour', 'Visit Social Page', 'Facebook')"><div id="fb-btn"></div></a>
 				<a href="http://www.twitter.com/zigzagcareer" target="_blank" title="Follow us @ZigZagCareer" onclick="ga('send', 'event', 'User Behaviour', 'Visit Social Page', 'Twitter')"><div id="tt-btn"></div></a>
+				<a href="https://plus.google.com/107833049143876051017" target="_blank" title="Joined our G+ Circle" onclick="ga('send', 'event', 'User Behaviour', 'Visit Social Page', 'Google+')" rel="publisher"><div id="gp-btn"></div></a>
 			</div>
 			<nav id="main-nav">
 				<ul>

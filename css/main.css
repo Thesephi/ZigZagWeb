@@ -131,8 +131,20 @@ div#tt-btn:hover {
 	background: url(../imgs/tt-btn_19x38.png) left -100%;
 }
 
+div#gp-btn {
+	width: 19px;
+	height: 19px;
+	background: url(../imgs/gp-btn_19x38.png);
+	float: left;
+	margin-left: 5px;	
+}
+
+div#gp-btn:hover {
+	background: url(../imgs/gp-btn_19x38.png) left -100%;
+}
+
 div#social-bar {
-    width: 50px;
+    width: 75px;
 	height: 19px;
 	float: right;
 	position: relative;
