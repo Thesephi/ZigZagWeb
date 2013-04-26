@@ -22,21 +22,22 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>ZigZag Career</title>
-        <meta name="description" content="resume writing, cv, proofreading, study abroad, consultations, company profile, personal profile, job application, personal branding">
+        <meta name="description" content="meo viet ho so sinh viec, ho so nang luc, tư vấn hướng dẫn viết hồ sơ sinh việc, hồ sơ năng lực, xây dựng thương hiệu cá nhân, thương hiệu doanh nghiệp, kiến thức hướng nghiệp dành cho sinh viên, người đi du học, người đi làm, doanh nhân, nghệ sĩ, resume writing, cv, proofreading, study abroad, consultations, company profile, personal profile, job application, personal branding">
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="<?php echo $cdn_prefix; ?>css/normalize.min.css">
         <link rel="stylesheet" href="<?php echo $cdn_prefix; ?>css/main.css">
+        <link rel="stylesheet" href="<?php echo $cdn_prefix; ?>css/utils.css">
 
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
-		
-		<!--start of Offerchat js code-->
+
+        <!--start of Offerchat js code-->
 		<script type='text/javascript'>var ofc_key = '04b873293bef20ced9d971acc63a409b';(function(){  var oc = document.createElement('script'); oc.type = 'text/javascript'; oc.async = true;  oc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.offerchat.com/offerchat_widget.min.js?r='+ Math.random();  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oc, s);}());</script>
 		<!--end of Offerchat js code-->
-		
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -48,7 +49,7 @@
 			<div id="social-bar">
 				<a href="http://www.facebook.com/zigzagcareer" target="_blank" title="Find us on facebook" onclick="ga('send', 'event', 'User Behaviour', 'Visit Social Page', 'Facebook')"><div id="fb-btn"></div></a>
 				<a href="http://www.twitter.com/zigzagcareer" target="_blank" title="Follow us @ZigZagCareer" onclick="ga('send', 'event', 'User Behaviour', 'Visit Social Page', 'Twitter')"><div id="tt-btn"></div></a>
-				<a href="https://plus.google.com/107833049143876051017" target="_blank" title="Join our G+ Circle" onclick="ga('send', 'event', 'User Behaviour', 'Visit Social Page', 'Google+')" rel="publisher"><div id="gp-btn"></div></a>
+				<a href="https://plus.google.com/107833049143876051017" target="_blank" title="Joined our G+ Circle" onclick="ga('send', 'event', 'User Behaviour', 'Visit Social Page', 'Google+')" rel="publisher"><div id="gp-btn"></div></a>
 			</div>
 			<nav id="main-nav">
 				<ul>
@@ -176,6 +177,10 @@
 				</p>-->
 			</div>
 		</footer>
+
+		<a href="https://docs.google.com/a/zigzagcareer.com/spreadsheet/viewform?formkey=dDRORmZlR0p6d0p4YU1iQndtWldFNXc6MQ" target="_blank">
+			<div class="btn or_btn survey_btn">KHẢO SÁT</div>
+		</a>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="<?php echo $cdn_prefix; ?>js/jquery.mousewheel.min.js"></script>
