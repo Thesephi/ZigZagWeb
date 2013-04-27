@@ -179,7 +179,10 @@
 		</footer>
 
 		<a href="https://docs.google.com/a/zigzagcareer.com/spreadsheet/viewform?formkey=dDRORmZlR0p6d0p4YU1iQndtWldFNXc6MQ" target="_blank">
-			<div class="btn or_btn survey_btn">KHẢO SÁT</div>
+			<div class="btn or_btn side_btn side_btn_1">KHẢO SÁT</div>
+		</a>
+		<a href="http://zigzagcareer.com/events/zigzagcareerconference0413/" target="_blank" title="Đăng ký tham dự Hội Thảo Chiến Lược Tìm Việc">
+			<div class="btn or_btn side_btn side_btn_2">HỘI THẢO</div>
 		</a>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

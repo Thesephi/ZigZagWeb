@@ -165,4 +165,5 @@ pip-log.txt
 /downloads
 /raw
 /logs
+/events
 .com.apple.timemachine.supported

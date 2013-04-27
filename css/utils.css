@@ -17,11 +17,19 @@ div.or_btn:hover {
 	background: url('../imgs/utils/or_btn_over.png');
 }
 
-div.survey_btn {
+div.side_btn {
 	position: fixed;
-	top: 110px;
-	left: -32px;
 	transform:rotate(90deg);
 	-ms-transform:rotate(90deg);
 	-webkit-transform:rotate(90deg);
+}
+
+div.side_btn_1 {
+	top: 110px;
+	left: -32px;
+}
+
+div.side_btn_2 {
+	top: 200px;
+	left: -32px;
 }
