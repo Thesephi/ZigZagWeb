@@ -163,6 +163,7 @@ pip-log.txt
 .DS_Store
 
 /downloads
+/deprecated
 /raw
 /logs
 /events
