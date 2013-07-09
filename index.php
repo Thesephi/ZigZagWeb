@@ -79,12 +79,14 @@
 		
 		<article id="art0" class="clearfix">
 			<section class="sect-left">
-				<h2>Our Service</h2>
+				<h2>Chúng tôi là ai?</h2>
 				<p>ZigZag Career giúp khách hàng thành công trong học tập và làm việc, đồng thời xây dựng thương hiệu cá nhân đẳng cấp và chuyên nghiệp qua các dịch vụ: <strong>Viết Hồ Sơ Năng Lực, Xây dựng thương hiệu cá nhân, Tư vấn và lên kế hoạch học tập, du học và nghề nghiệp và Chiến lược tìm việc để có được công việc mơ ước.</strong> Dịch vụ của chúng tôi là tất cả những gì khách hàng cần để xây dựng một thương hiệu cá nhân thật sự chuyên nghiệp và thành công.</p>
+				<!--<p>Xin chào các bạn, tại ZigZag Career, chúng tôi xin tự nhận mình là <strong>"Gấu"</strong>. Các Gấu sẽ giúp bạn <strong>xây dựng hoặc sửa lỗi, hoàn thiện văn bản CV (hay còn gọi là Resume - Hồ Sơ Năng Lực)</strong>. Một văn bản với nội dung mạch lạc và cách trình bày thông minh sẽ đưa thông tin đến người đọc một cách nhanh chóng và tự nhiên nhất, giúp bạn dễ được chú ý hơn trong mắt người tuyển dụng.</p>-->
 			</section>
 			<section class="sect-right">
-				<h2>Why's bear?</h2>
-				<p>Gấu được chúng tôi chọn là người hướng dẫn cho khách hàng khi tham quan website. Câu chuyện bắt nguồn từ biệt danh của người sáng lập nên công ty, chúng tôi quyết định linh vật là Gấu để viết câu chuyện về mình. <strong>ZigZag đã chọn những điều mình thích để làm nên bộ hồ sơ riêng, và sẽ chọn những điều bạn thích để xây dựng nên bộ hồ sơ của chính các bạn.</strong></p>
+				<h2>Hình ảnh Gấu?</h2>
+				<!--<p>Gấu được chúng tôi chọn là người hướng dẫn cho khách hàng khi tham quan website. Câu chuyện bắt nguồn từ biệt danh của người sáng lập nên công ty, chúng tôi quyết định linh vật là Gấu để viết câu chuyện về mình. <strong>ZigZag đã chọn những điều mình thích để làm nên bộ hồ sơ riêng, và sẽ chọn những điều bạn thích để xây dựng nên bộ hồ sơ của chính các bạn.</strong></p>-->
+				<p>Gấu được chúng tôi chọn là người hướng dẫn cho các bạn khi tham quan website. Câu chuyện bắt nguồn từ biệt danh của người sáng lập nên công ty, chúng tôi quyết định linh vật là Gấu để viết câu chuyện về mình. <strong>ZigZag đã chọn những điều mình thích để làm nên bộ hồ sơ riêng, và sẽ chọn những điều bạn thích để xây dựng nên bộ hồ sơ của chính các bạn.</strong></p>
 			</section>
 		</article>
 		
@@ -94,9 +96,9 @@
 		
 		<article class="story" id="art1">
 		<div>
-			<p>Sự nghiệp có hình zigzag đang là xu hướng mới. Nhà tuyển dụng dần đánh giá cao các ứng viên linh hoạt, chủ động trong nấc thang sự nghệp. Và gọi họ là: <strong>Zig-Zagger</strong>.</p>
+			<p>Sự nghiệp có hình zigzag đang là xu hướng mới. Nhà tuyển dụng dần đánh giá cao các ứng viên linh hoạt, chủ động trong nấc thang sự nghệp. Và họ gọi đó là: <strong>ZigZagger</strong>.</p>
 			<div class="illus" id="illus1" data-dim-ratio="0.41"></div>
-			<p>Hãy xây dựng uy tín cho bản thân và biến mỗi lần bạn zigzag công việc thành một điểm mạnh trong hồ sơ năng lực bằng những gói dịch vụ của ZigZag Career.</p>
+			<p>Chúng tôi đặc biệt xem trọng hoài bão và quyết tâm tìm kiếm lý tưởng sống của <strong>ZigZagger</strong> thông qua tinh thần không ngại thử thách và mạo hiểm, thay đổi công việc và cuộc sống để đạt đến những nấc thang cao hơn trên con đường phát triển bản thân.</p>
 			<div class="sect-nav-arr"></div>
 		</div>
 		</article>
@@ -105,9 +107,9 @@
 		<article class="story" id="art2">
 		<div>
 			<h2>Hồ sơ năng lực là gì?</h2>
-			<p>Có bao giờ bạn thắc mắc tại sao mình không có được nhiều cơ hội tốt như người khác? Bạn có năng lực nhưng chưa biết cách thể hiện? <strong>Hãy bắt đầu với một bộ hồ sơ năng lực !</strong></p>
+			<p>Tuy nhiên có bao giờ bạn thắc mắc vì sao mình không có được nhiều cơ hội như người khác? Bạn có năng lực nhưng chưa biết cách thể hiện? <strong>Hãy bắt đầu với một bộ hồ sơ năng lực !</strong></p>
 			<div class="illus" id="illus2" data-dim-ratio="0.41"></div>
-			<p><strong>Hồ sơ được xem là công cụ hiệu quả nhất nhằm marketing bản thân,</strong> thể hiện được thế mạnh và năng lực, phần thiết kế cần sự sáng tạo và khác biệt.</p>
+			<p><strong>Hồ sơ được xem là công cụ quan trọng bước đầu nhằm thể hiện bản thân,</strong> thế mạnh và năng lực đối với người tuyển dụng. Văn bản này cần sự đầu tư về nội dung và trình bày.</p>
 			<div class="sect-nav-arr"></div>
 		</div>
 		</article>
@@ -144,7 +146,7 @@
 		
 		<article class="story" id="art4">
 		<div>
-			<p><strong>Chọn nghề nghiệp dưới đây</strong><br />để bắt đầu một hồ sơ năng lực thể hiện rõ cá tính của bạn</p>
+			<p><strong>Hãy cho chúng tôi biết bạn là ai, bạn làm gì</strong><br />và chúng tôi sẽ hỗ trợ bạn tạo bộ hồ sơ năng lực phù hợp với mục đích của mình</p>
 			<div class="illus" id="illus4" data-smart-height="true" data-dim-ratio="0.61">
 				<!--<canvas id="art4c"></canvas>-->
 				<div class="clearfix" id="illus4comps">
@@ -166,7 +168,7 @@
 		
 		<footer id="main-footer">
 			<div>
-				<p>&copy; 2012 - 2013 ZigZag Career | Business inquiries: <a href="mailto:info@zigzagcareer.com" onclick="ga('send', 'event', 'User Behaviour', 'Click', 'Send email from footer link')">info@zigzagcareer.com</a></p>
+				<p>&copy; 2012 - 2013 ZigZag Career | Liên hệ: <a href="mailto:info@zigzagcareer.com" onclick="ga('send', 'event', 'User Behaviour', 'Click', 'Send email from footer link')">info@zigzagcareer.com</a></p>
 				<!--<p class="vcard">
 					<a class="fn org url" href="http://zigzagcareer.com" title="ZigZag Career Website">
 						<span class="organization-name">ZigZag Career</span>
@@ -178,12 +180,12 @@
 			</div>
 		</footer>
 
-		<a href="https://docs.google.com/a/zigzagcareer.com/spreadsheet/viewform?formkey=dDRORmZlR0p6d0p4YU1iQndtWldFNXc6MQ" target="_blank">
+		<!--<a href="https://docs.google.com/a/zigzagcareer.com/spreadsheet/viewform?formkey=dDRORmZlR0p6d0p4YU1iQndtWldFNXc6MQ" target="_blank">
 			<div class="btn or_btn side_btn side_btn_1">KHẢO SÁT</div>
 		</a>
 		<a href="http://zigzagcareer.com/events/zigzagcareerconference0413/" target="_blank" title="Đăng ký tham dự Hội Thảo Chiến Lược Tìm Việc">
 			<div class="btn or_btn side_btn side_btn_2">HỘI THẢO</div>
-		</a>
+		</a>-->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="<?php echo $cdn_prefix; ?>js/jquery.mousewheel.min.js"></script>
