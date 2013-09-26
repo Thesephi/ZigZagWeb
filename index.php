@@ -80,7 +80,7 @@
 		<article id="art0" class="clearfix">
 			<section class="sect-left">
 				<h2>Chúng tôi là ai?</h2>
-				<p>ZigZag Career giúp khách hàng thành công trong học tập và làm việc, đồng thời xây dựng thương hiệu cá nhân đẳng cấp và chuyên nghiệp qua các dịch vụ: <strong>Viết Hồ Sơ Năng Lực, Xây dựng thương hiệu cá nhân, Tư vấn và lên kế hoạch học tập, du học và nghề nghiệp và Chiến lược tìm việc để có được công việc mơ ước.</strong> Dịch vụ của chúng tôi là tất cả những gì khách hàng cần để xây dựng một thương hiệu cá nhân thật sự chuyên nghiệp và thành công.</p>
+				<p>ZigZag Career <span class="superscript">&reg;</span> giúp khách hàng thành công trong học tập và làm việc, đồng thời xây dựng thương hiệu cá nhân đẳng cấp và chuyên nghiệp qua các dịch vụ: <strong>Viết Hồ Sơ Năng Lực, Xây dựng thương hiệu cá nhân, Tư vấn và lên kế hoạch học tập, du học và nghề nghiệp và Chiến lược tìm việc để có được công việc mơ ước.</strong> Dịch vụ của chúng tôi là tất cả những gì khách hàng cần để xây dựng một thương hiệu cá nhân thật sự chuyên nghiệp và thành công.</p>
 				<!--<p>Xin chào các bạn, tại ZigZag Career, chúng tôi xin tự nhận mình là <strong>"Gấu"</strong>. Các Gấu sẽ giúp bạn <strong>xây dựng hoặc sửa lỗi, hoàn thiện văn bản CV (hay còn gọi là Resume - Hồ Sơ Năng Lực)</strong>. Một văn bản với nội dung mạch lạc và cách trình bày thông minh sẽ đưa thông tin đến người đọc một cách nhanh chóng và tự nhiên nhất, giúp bạn dễ được chú ý hơn trong mắt người tuyển dụng.</p>-->
 			</section>
 			<section class="sect-right">
@@ -117,8 +117,8 @@
 		
 		<article class="story" id="art3">
 		<div>
-			<h2>Tại sao nên chọn ZigZag Career?</h2>
-			<p>Tại ZigZag Career, chúng tôi tin rằng Một Hồ Sơ có thể mang đến cho bạn Triệu Cơ Hội để khẳng định năng lực và tạo thương hiệu cá nhân của mình.</p>
+			<h2>Tại sao nên chọn ZigZag Career<span class="superscript">&reg;</span> ?</h2>
+			<p>Tại ZigZag Career<span class="superscript">&reg;</span>, chúng tôi tin rằng Một Hồ Sơ có thể mang đến cho bạn Triệu Cơ Hội để khẳng định năng lực và tạo thương hiệu cá nhân của mình.</p>
 			<div class="illus clearfix" id="illus3" data-smart-height="true" data-dim-ratio="0.41">
 			
 				<div class="illus3-child" id="illus31">
@@ -168,7 +168,7 @@
 		
 		<footer id="main-footer">
 			<div>
-				<p>&copy; 2012 - 2013 ZigZag Career | Liên hệ: <a href="mailto:info@zigzagcareer.com" onclick="ga('send', 'event', 'User Behaviour', 'Click', 'Send email from footer link')">info@zigzagcareer.com</a></p>
+				<p>&copy; 2012 - 2013 ZigZag Career Co., Ltd. <!--ZigZag Career<span class="superscript">&reg;</span> là nhãn hiệu đã được đăng ký bản quyền sở hữu trí tuệ<br />--> | Liên hệ: <a href="mailto:info@zigzagcareer.com" onclick="ga('send', 'event', 'User Behaviour', 'Click', 'Send email from footer link')">info@zigzagcareer.com</a></p>
 				<!--<p class="vcard">
 					<a class="fn org url" href="http://zigzagcareer.com" title="ZigZag Career Website">
 						<span class="organization-name">ZigZag Career</span>

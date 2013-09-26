@@ -8,6 +8,8 @@ var _storyPos = [0];
 var _curStoryPos = 0;
 
 $(function() {
+
+	console.log("Chào bạn đã viếng thăm console log. Nếu bạn quan tâm đến cơ hội làm việc tại mảng kỹ thuật ở ZigZag Career hoặc các công ty liên kết với ZigZag Career, xin hãy gửi email về địa chỉ info@zigzagcareer.com nhé!");
 	
 	/*$(window).bind('scroll', function() {
 		console.log($(window).scrollTop());
