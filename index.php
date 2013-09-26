@@ -21,7 +21,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>ZigZag Career</title>
+        <title>ZigZag Career &reg;</title>
         <meta name="description" content="meo viet ho so sinh viec, ho so nang luc, tư vấn hướng dẫn viết hồ sơ sinh việc, hồ sơ năng lực, xây dựng thương hiệu cá nhân, thương hiệu doanh nghiệp, kiến thức hướng nghiệp dành cho sinh viên, người đi du học, người đi làm, doanh nhân, nghệ sĩ, resume writing, cv, proofreading, study abroad, consultations, company profile, personal profile, job application, personal branding">
         <meta name="viewport" content="width=device-width">
 
